@@ -1,0 +1,20 @@
+
+/*
+ |-----------------------------
+ |   Development Environment
+ |-----------------------------
+ |   Use: npx ts-node console
+ |
+ */
+if (process.execArgv.some(arg => arg.includes('ts-node')))
+    require('./source/controller/console');
+
+
+/*
+ |-----------------------------
+ |   Production Environment
+ |-----------------------------
+ |   Use: node console
+ |
+ */
+else require('./deploy/controller/console');

@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "NodeNext",
+        "allowJs": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "moduleResolution": "NodeNext",
+        "resolveJsonModule": true,
+        "outDir": "./deploy/controller",
+        "baseUrl": "./source/controller",
+        "paths": {
+            "@/*": [
+                "*"
+            ]
+        }
+    },
+    "exclude": [
+        "**/*.hold.ts"
+    ],
+    "include": [
+        "source/controller"
+    ]
+}

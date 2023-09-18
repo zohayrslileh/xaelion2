@@ -1,0 +1,19 @@
+{
+    "devPaths": [
+        ".git",
+        "usage",
+        "source",
+        ".vscode",
+        ".config",
+        ".gitignore",
+        "tsconfig.json"
+    ],
+    "storagePaths": [
+        "build",
+        "storage",
+        ".config"
+    ],
+    "depsPaths": [
+        "node_modules"
+    ]
+}
